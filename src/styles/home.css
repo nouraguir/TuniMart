@@ -1,0 +1,97 @@
+.hero__section{
+    color:#ffc4d4 ;
+
+}
+.hero__content h2{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.hero__content p{
+    color: black;
+    line-height: 28px;
+}
+.hero__section p:nth-child(1){
+    font-weight:500 ;
+}
+
+.shop__btn{
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: blanchedalmond;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+.shop__btn a:hover{
+    color: blanchedalmond;
+}
+
+.hero__content{
+    padding-top: 45px;
+}
+
+.timer__count{
+    background: var(--primary-color);
+    height: 300px;
+}
+
+.counter__img{
+    display: none;
+}
+
+.timer__count img{
+    margin-bottom: 20%;
+    width: 90% !important;
+    height: 80% !important;
+    object-fit: contain;
+
+}
+
+
+.store__btn{
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+
+}
+.store__btn a:hover{
+    color: var(--primary-color);
+}
+.section__title{
+    font-size: 1.7rem;
+}
+
+.clock__top-content{
+    text-align: center;
+}
+.clock__top-content h4{
+    text-align: center;
+
+    font-size: .9rem !important;
+}
+.clock__top-content h3{
+    text-align: center;
+
+    font-size: 1rem !important;     
+}
+.count__down-col {
+    text-align: center;
+}
+@media only screen and (max-width: 992px){
+    .hero__content h2{
+        font-size: 2rem;
+    }
+}
